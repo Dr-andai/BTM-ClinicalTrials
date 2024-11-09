@@ -784,7 +784,7 @@ map('world',
 
 library(ggmap)
 
-register_google(key = "AIzaSyADngLnfcUhOTVqk1euPiz530YAjDlVKiI")
+register_google(key = "")
 
 hiv_behavioral <- hiv_behavioral %>%
   mutate(GeocodeResult = geocode(primary_sponsor))
